@@ -6,11 +6,10 @@
 }
 
 body {
-    background: grey;
     font-family: "Averia Sans Libre", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(180.00deg, rgb(28, 10, 30), rgb(20, 49, 78) 100%);
+
     color: var(--primary-text-color);
     font-size: 24px;
     line-height: 1.1;
@@ -60,6 +59,17 @@ img {
 
 /* -------------header-------------- */
 
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+
 .header-container {
     display: flex;
     align-items: center;
@@ -95,8 +105,13 @@ img {
 
 /* -------------main--------------- */
 
+.wrapper {
+    background: linear-gradient(180.00deg, rgb(28, 10, 30), rgb(20, 49, 78) 100%);
+}
+
 .main-section {
-    padding-bottom: 170px;
+    /* padding-bottom: 170px; */
+    padding-bottom: 150px;
 }
 
 .title {
@@ -107,6 +122,8 @@ img {
     background-clip: text;
     display: flex;
     flex-direction: column;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
 }
 
 .title span {
@@ -152,4 +169,8 @@ img {
 .software-icon {
     width: 45px;
     height: 45px;
+}
+
+.footer {
+    background-color: rgb(20, 49, 78);
 }
