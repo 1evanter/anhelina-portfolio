@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href=" " class="logo">
+          <svg width="72px" height="80px">
+            <use href="/images/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="lang-button">En/Ua</button>
+      </div>
+    </header>
+
+    <!-- /header -->
+
+    <!-- main -->
+    <main>
+      <section class="section main-section">
+        <div class="container">
+          <h1 class="title">Magical<span>Websites</span></h1>
+          <div class="credits">
+            <p class="credits-text">by Anhelina UI/UX Designer</p>
+            <ul class="social-list">
+              <li class="social-item">
+                <a
+                  href="https://www.behance.net/88247d43"
+                  target="_blank"
+                  class="social-link"
+                  ><svg class="social-icon">
+                    <use href="./images/sprite.svg#behance"></use>
+                  </svg>
+                  <span>Behance</span>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href="mailto:angemur0402@gmail.com? "
+                  target="_blank"
+                >
+                  <svg class="social-icon">
+                    <use href="/images/sprite.svg#email"></use>
+                  </svg>
+                  Email</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  href="https://t.me/angel261119"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <svg class="social-icon">
+                    <use href="/images/sprite.svg#telegram"></use>
+                  </svg>
+                  Telegram</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  href="https://www.linkedin.com/in/anhelina-muradova/"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <svg class="social-icon">
+                    <use href="/images/sprite.svg#linkedin"></use>
+                  </svg>
+                  Linkedin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="sub-title">About me</h2>
+          <div>
+            <h3 class="sub-sub-title">Hello!</h3>
+            <p>
+              My name is Anhelina, I`m a UI/UX Designer. My goal is to make
+              digital products beautiful and aesthetically pleasing, and most
+              importantly accessible and understandable to users. I consider
+              creativity to be my main advantage. I take into account any
+              comments and am ready to realize your desires in incredible
+              projects
+            </p>
+          </div>
+          <div>
+            <h3 class="sub-sub-title">Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Wireframes</li>
+              <li class="skills-item">User flow</li>
+              <li class="skills-item">Mobile app</li>
+              <li class="skills-item">Prototyping</li>
+              <li class="skills-item">Dashboard</li>
+              <li class="skills-item">Landing page</li>
+              <li class="skills-item">Website</li>
+              <li class="skills-item">Logo</li>
+              <li class="skills-item">Animation patterns</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub-sub-title">Software</h3>
+            <ul class="software-list">
+              <li class="software-item">
+                <svg class="software-icon">
+                  <use href="/images/sprite.svg#figma"></use>
+                </svg>
+              </li>
+              <li class="software-item">
+                <svg class="software-icon">
+                  <use href="/images/sprite.svg#illustrator"></use>
+                </svg>
+              </li>
+              <li class="software-item">
+                <svg class="software-icon">
+                  <use href="/images/sprite.svg#photoshop"></use>
+                </svg>
+              </li>
+              <li class="software-item">
+                <svg class="software-icon">
+                  <use href="/images/sprite.svg#after-effects"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h2>Portfolio</h2>
+        </div>
+      </section>
+      <section id="reviews" class="section">
+        <div class="container">
+          <h2>Reviews</h2>
+        </div>
+      </section>
+      <section id="contacts" class="section">
+        <div class="container">
+          <h2>Contact me</h2>
+          <form id="contact-form">
+            <input type="text" class="form-input" placeholder="Name" />
+            <input type="phone" class="form-input" placeholder="Phone number" />
+            <input type="text" class="form-input" placeholder="Comments" />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- /main -->
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <a href=" " class="logo">
+          <svg>
+            <use href="/images/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.behance.net/88247d43"
+                target="_blank"
+                class="social-link"
+                >Behance</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link"
+                href="mailto:angemur0402@gmail.com? "
+                target="_blank"
+                >Email</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                href="https://t.me/angel261119"
+                target="_blank"
+                class="social-link"
+                >Telegram</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/anhelina-muradova/"
+                target="_blank"
+                class="social-link"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+  </body>
+</html>
